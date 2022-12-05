@@ -92,6 +92,9 @@ section.portfolio-section {
   section.portfolio-section .portfolio-item .portfolio-date {
     min-width: none; }
 
+section#education {
+      border-bottom: none;
+  }
 @media (min-width: 768px) {
   section.portfolio-section {
     min-height: 100vh; }
@@ -113,3 +116,9 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+footer {
+      background: #878e88;
+      position: absolute;
+      width: 100%;
+  }
